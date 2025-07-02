@@ -10,24 +10,25 @@ namespace Trabajo_SCI
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("╔════════════════════════╦═════════╦═══════════════╦══════════════════════════════╗                                       ");
-            Console.WriteLine("║        CUARTO 1        ║         ║               ║                              ║                                                                        ");
-            Console.WriteLine("║     ┌─────┐            ║         ║               ║                              ║                                        ");
-            Console.WriteLine("      │─────│            ║  BAÑO   ║               ║                              ║                                   ");
-            Console.WriteLine("      │     │            ║     ███ ║               ║                              ║                         ");
-            Console.WriteLine("      │     │            ║    ▄▄▄▄ ║               ║                              ║                        ");
-            Console.WriteLine("║     └─────┘            ║   ▄▄▄▄▄ ║   BAÑO 2      ║                              ║                    ");
-            Console.WriteLine("║                        ║         ║               ║                              ║                   ");
-            Console.WriteLine("║                                  ║               ║           SALA               ║                           ");
-            Console.WriteLine("║                                  ║               ║          COCINA              ║                    ");
-            Console.WriteLine("║                                  ║               ║                              ╠════════╗                       ");
-            Console.WriteLine("║                                  ║               ║                              ║        ║              ");
-            Console.WriteLine("╠═════════      ═════════╬═════════╩══════         ╝                                       ║                            ");
-            Console.WriteLine("║   ¥ ¥                                                                                    ║               ");
-            Console.WriteLine("║   ¥ ¥                                                                             BALCON ║                            ");
-            Console.WriteLine("╚═══════════════╗                                                                 ║        ║                                ");
-            Console.WriteLine("                ║                                                                 ║        ║              ");
-            Console.WriteLine("                ╚═════════════════════════════════════════════════════════════════╩════════╝                            ");     
+            Console.WriteLine("╔════════════════════════╦════════════╦═══════════════╦══════════════════════════════════════════╗                                       ");
+            Console.WriteLine("║¥                     ¥ ║            ║               ║¥¥       Sala de reuniones              ¥¥║                                                                        ");
+            Console.WriteLine("║    Oficina del jefe    ║ ALMACEN    ║   Oficina 2   ║            (Sensor 4)                    ║                                        ");
+            Console.WriteLine("║       (Sensor 1)       ║ PISO 2     ║   (Sensor 3)  ║              ┌──O───O───┐                ║                                   ");
+            Console.WriteLine("║        ┌-----┐         ║ (Sensor 2) ║   ┌─O───O─┐   ║             O│          │O               ║                         ");
+            Console.WriteLine("║        │     │         ║        ▄▄  ║   └─O───O─┘   ║              └──O───O───┘                ║                        ");
+            Console.WriteLine("║        └-O-O-┘         ║        ██  ║               ║¥¥                                      ¥¥║                        ");
+            Console.WriteLine("║                        ║        ██  ║   ┌─O───O─┐   ╠══════════════════════       ═╦═══════════╝                    ");
+            Console.WriteLine("║                        ║        ██  ║   └─O───O─┘   ║                              ║                           ");
+            Console.WriteLine("║                        ║            ║               ║                              ║                    ");
+            Console.WriteLine("║                        ║            ║               ║       ════════════════════╦══╩════════════╗                       ");
+            Console.WriteLine("║ ¥                    ¥ ║            ║¥             ¥║                           ║¥¥           ¥¥║              ");
+            Console.WriteLine("╠═════════      ═════════╬══════      ╩══════         ╝        PASILLO            ║      ┌--┐     ║                            ");
+            Console.WriteLine("║¥¥                                        PASILLO            (sensor 8)          │     O│  │O    ║               ");
+            Console.WriteLine("║¥¥                                      (sensor 8)                               │      └--┘     ║                            ");
+            Console.WriteLine("╚═══════════════╗    ═══════════════════════╦════════════╦════════════════════════╗   Oficina 3   ║                                ");
+            Console.WriteLine("                ║                           │ Lava manos │         BAÑOS          ║  (Sensor 5)   ║              ");
+            Console.WriteLine("                ║                           │ (sensor 6) │       (sensor 7)       ║               ║              ");
+            Console.WriteLine("                ╚═════════════════════════════════════════════════════════════════╩═══════════════╝                            ");     
         }
     }
 }
